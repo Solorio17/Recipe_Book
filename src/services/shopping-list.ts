@@ -18,5 +18,4 @@ export class ShoppingListService{
   removeItem(index: number){
     this.ingredients.splice(index, 1)
   }
-
 }
